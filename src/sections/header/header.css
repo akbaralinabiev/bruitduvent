@@ -194,6 +194,7 @@ c{
 
 
 
+
 .gpt3__navbar-menu_container {
   display: flex;
   justify-content: flex-end;
@@ -276,7 +277,16 @@ c{
 .logo h2{
   color: #fff;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 30px;
   letter-spacing: 3px;
 }
+.center-content p{
+  font-size: 16px;  
+}
+.center-content h1{
+  font-size: 18px;  
+}
+
+
+
 }
