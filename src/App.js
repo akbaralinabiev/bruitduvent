@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Explore, Footer, Contact } from "./sections";
+import { Header, Explore, Contact } from "./sections";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
       <Header />
       <Explore />
       <Contact />
-      <Footer />
     </div>
   );
 }
