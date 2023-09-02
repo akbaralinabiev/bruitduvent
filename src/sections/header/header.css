@@ -200,7 +200,7 @@ c{
   align-items: flex-end;
   flex-direction: column;
   text-align: end;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
   padding: 1rem 1rem;
   position: absolute;
