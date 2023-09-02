@@ -67,6 +67,7 @@ const Explore = () => {
 
   return (
     <div className='explore-wrapper' id='explore'>
+     <h3 className='header-text'>My recent works</h3>
       <div className='products'>
         {items.slice(0, visibleItems).map((item, index) => (
           <div className='product-item' key={index}>
@@ -75,7 +76,6 @@ const Explore = () => {
           </div>
         ))}
       </div>
-      {/* Show the "Load More" button when not all items are visible */}
       {visibleItems < items.length && (
         <button className='load-more-button' onClick={handleLoadMore}>
           See More
