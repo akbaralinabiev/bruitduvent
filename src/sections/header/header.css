@@ -31,6 +31,32 @@ c{
   .nav-links li {
     display: inline-block;
   }
+
+  .nav-links-mobile li{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links-mobile li{
+    gap: 10px;
+  }
+
+  .nav-links-mobile a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px; 
+    font-family: var(--secondary-font);
+    font-weight: bold; 
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+  }
   
   .nav-links a {
     margin-left: 30px;
@@ -41,20 +67,10 @@ c{
     font-weight: bold; 
     text-transform: uppercase;
     font-weight: 500;
-    border: 0.5px solid rgba(252, 252, 252, 0.534);
     padding: 8px 20px;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;
-    
+    border-radius: 100px;;
   }
   
-  .nav-links a:hover {
-    background: linear-gradient(45deg, #c0392b, #8e44ad);
-    
-  }
 
 .logo h2{
   color: #fff;
@@ -176,6 +192,33 @@ c{
   color: #fff;
 }
 
+
+
+.gpt3__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 1rem 1rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0 0 5 rgb(0, 0, 0, 0.2);
+}
+
+.navbar-menu{
+  display: none;
+}
 /**************************Responsive starts here******************************/
 
 @media(max-width: 1300px){
@@ -202,6 +245,10 @@ c{
 
 
 @media(max-width: 760px){
+
+  .navbar-menu{
+    display: block;
+  }
   .navbar{
     z-index: 2;
     padding: 10px 5% 10px;
@@ -223,6 +270,13 @@ c{
   position: absolute;
   width: 100%;
   padding: 5%;
-  margin-top: 45%;
+  margin-top: 25%;
+}
+
+.logo h2{
+  color: #fff;
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: 3px;
 }
 }
