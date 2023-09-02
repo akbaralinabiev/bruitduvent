@@ -1,0 +1,14 @@
+
+/* ***********************          Variables            ************************** */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --font-logo: 'Bonheur Royale', cursive;
+    --bg-color: #F7F8FA;
+    --font: 'Playfair Display', serif;
+    --secondary-font: 'Sen', sans-serif;
+    
+}   
