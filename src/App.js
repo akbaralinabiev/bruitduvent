@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Explore, Contact } from "./sections";
+import { Header, Explore, Contact, TopToButton } from "./sections";
 import "./App.css";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <Header />
       <Explore />
       <Contact />
+      <TopToButton />
     </div>
   );
 }

@@ -1,0 +1,28 @@
+.topTo{
+
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    /* border: 0.3px solid black; */
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+  
+  #myBtn img {
+    width: 100%;
+    height: 100%;
+  }

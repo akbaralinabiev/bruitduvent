@@ -83,6 +83,8 @@ const Home = () => {
           </div>
         </div>
 
+        
+
         <div className="container">
           <div className="center-content">
             <video autoPlay loop muted src={video}></video>
