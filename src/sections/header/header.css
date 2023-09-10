@@ -36,6 +36,7 @@
 
 
 .nav-links-mobile a {
+  letter-spacing: 2px;
   margin-left: 30px;
   text-decoration: none;
   color: #ffffff;
@@ -291,7 +292,7 @@ h1 {
   .logo h2 {
     color: #fff;
     font-weight: normal;
-    font-size: 34px;
+    font-size: 20px;
     letter-spacing: 3px;
   }
   .center-content p {
