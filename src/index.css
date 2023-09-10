@@ -1,14 +1,19 @@
 
+
+
 /* ***********************          Variables            ************************** */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
 
 :root{
-    --font-logo: 'Bonheur Royale', cursive;
+    --font-logo: 'Ubuntu', sans-serif;
     --bg-color: #F7F8FA;
     --font: 'Playfair Display', serif;
-    --secondary-font: 'Sen', sans-serif;
+    /* --secondary-font: 'Sen', sans-serif; */
+    --secondary-font: 'Ubuntu', sans-serif;
     
 }   
